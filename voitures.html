@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des Voitures</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="SCRIPT.JS"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>Gestion des Voitures</h1>
+      <a href="index.html">Retour</a>
+    </nav>
+  </header>
+  <img src="c:\Users\UNCHK\Downloads\964-wallpaper.jpg" alt="" width="100%">
+
+  <section id="voitures" class="section">
+    <h2>Liste des Voitures</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Marque</th>
+          <th>Modèle</th>
+          <th>Année</th>
+          <th>Plaque</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody id="voitures-list">
+        </tbody>
+    </table>
+    <button class="btn">Ajouter une Voiture</button>
+  </section>
+  <form action="ajout_voiture.php" method="POST">
+    <input type="text" name="marque" placeholder="Marque" required>
+    <input type="text" name="modele" placeholder="Modèle" required>
+    <input type="number" name="annee" placeholder="Année" required>
+    <input type="text" name="plaque" placeholder="Plaque d'immatriculation" required>
+    <select name="statut">
+        <option value="disponible">Disponible</option>
+        <option value="louée">Louée</option>
+        <option value="en maintenance">En maintenance</option>
+    </select>
+    <button type="submit">Ajouter la voiture</button>
+</form>
+</body>
+</html>

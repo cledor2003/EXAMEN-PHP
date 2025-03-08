@@ -1,1 +1,3 @@
 CECI EST NOTRE PROJET EXAMEN MONSIEUR AVEC LES DIFFERENTS LIEN DEMANDE ET LES CODE //juste monsieur nos iamges mis dans notre prochaine ne sont pas visible en ligne nous savons pas c quoi le probleme
+file:///C:/Users/UNCHK/OneDrive/Bureau/Nouveau%20dossier/htdocs/xampp/tp/EXAMEN%20PHP/index.html ; ce lien si contre copie dans la barre de recherche et visualiser pour mieux reflete notre travail accompli avec des photo qui met en valeur notre site de location de voiture nomme clecar 
+file:///C:/Users/UNCHK/OneDrive/Bureau/Nouveau%20dossier/htdocs/xampp/tp/EXAMEN%20PHP/admin_dashboard.html : pour le tableau de bord
